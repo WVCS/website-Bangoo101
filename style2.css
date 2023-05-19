@@ -3,4 +3,26 @@ body{
   font-family: "Comic Sans", sans-serif;
   text-align: center;
 }
-
+h1, h6 {
+    color:#453C3A
+  }
+ul {
+  list-style-type: none;
+  text-align: center;
+  
+}
+li{
+  float:right;
+}
+li a {
+  font-size: 25px;
+  padding: 12px;
+  color: #000000;
+  font-family: "Monaco", Monospace;
+  text-decoration: none;
+  background-color: #C27362;
+}
+li a:hover{
+  background-color: #975C4F;
+  color: #000000
+}
