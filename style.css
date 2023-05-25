@@ -1,53 +1,39 @@
 body{
-  background-color:#C27362;
-  /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxP6CBDBD_IkYsr1bel8kCQuunJBGp_HO1ECxsP0bS3Q:https://h5p.org/sites/default/files/h5p/content/1209180/images/file-6113d5f8845dc.jpeg&usqp=CAU&ec=48665701");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;*/
+  background-color: #C27362;
 }
-h1{
-  text-color: #453C3A;
-  font-family: "Comic Sans", sans-serif;
+h1, h6, p{
   text-align: center;
-  font-size: 110%;
-  letter-spacing: 7px;
-}
-p_1{
-  text-align: justify left;
-  text-decoration: underline;
-  text-decoration-color: #28AFB0;
-  font-size: 50px;
-  border-style: double;
-  border-color: #28AFB0;
-  border-width: 12px;
-}
-p_2{
-  font-size: 50px;
-}
-img{
-  width: 540px;
-  
-}
-iframe{
-  
+  color: #453C3A;
 }
 ul {
   list-style-type: none;
   text-align: center;
-  
 }
 li{
-  float:right;
+  float:left;
 }
 li a {
-  padding: 12px;
+  font-size: 25px;
+  padding: 20px;
   color: #000000;
   font-family: "Monaco", Monospace;
   text-decoration: none;
-  /* background-color: #1DF1B0; */
-   
+  background-color: #C27362;
 }
 li a:hover{
-  background-color: ##28AFB0;
+  background-color: #975C4F;
+  color: #000000
+}
+iframe{
+  font-size: 25px;
+  padding: 45px;
+  color: #000000;
+  font-family: "Monaco", Monospace;
+  text-decoration: none;
+  background-color: #C27362;
+  text-align: center;
+}
+li_2 a{
+  /*background-color: #975C4F;*/
   color: #000000
 }
