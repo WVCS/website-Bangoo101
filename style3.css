@@ -36,3 +36,9 @@ li_2 a{
   /*background-color: #975C4F;*/
   color: #000000
 }
+li_3 a{
+  font-size: 10px;
+  text-align:center;
+  color: #453C3A;
+  text-decoration:none;
+}
