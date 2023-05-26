@@ -1,0 +1,115 @@
+Hello 
+I think u want totk on ur pc so i made this instructions to help with the process
+Its simple but it can be tricky if you dont know what ur doing so read carefully.
+
+- FIRST - COPY all of the files in this folder onto ur computer (instructions are optional)
+
+In order to download it CORRECTLY u gotta get ryujinx from github i used version 1.799 or smth 
+
+then u gotta find the legend of zelda totk .xci file I downloaded it on this flash drive for ur convinence so just copy it over on ur computer (I suggest you make a folder for all of you emulators and make a sub folder for the games)
+
+Next you have to open the ryujinx software, It will need to be unzipped after downloading so do that and open the application from the now unzipped folder downloaded and there should be a bar at the top for options, file, etc
+	
+	go to the instal firmaware and select the first option where you install from a zip or xci file.
+	You will need to select the firmware zip file on this (you dont need to unzip the file) and that should be all good. 
+
+	now the keys 
+	To download the keys its a little difficult but still pretty simple
+	first unzip the keys file and you should get a folder with two files 
+	open ryujinx and go to file in the top left and click "open ryujinx file"
+	then open the "system" folder and put the two files from the keys zip into the system folder
+	all done now you can leave this folder
+
+To now set up the game you need to set the directory so the program can run the game
+
+This is simple 
+go to options in the top left and select "settings"
+now in "general" go down to game directories and add your directory (if you did as i sugessted itll be simple to find ur games cus you set up a sub folder and moved totk.xci into it)
+
+Now ur done and totk should show up under the menu bar if it doesnt look further down this file and look at the settings and make sure your settings are correct
+
+Graphics upgrade:
+theres a file called 60fps in this folder that you should put in a sub folder in ur emulator folder for ryujinx
+to use you need to open ryujinx folder from "file" and in mods put the 60fps mod into the exefs_patches folder or nro_patches folder idk (TBH i still havent figured out how to make it work) and close the app and rerun it
+
+-WAIT-
+some important settings to not miss 
+	
+	in options>settings>General
+	set check for updates on launch to off (u dont want it to update and mess up ur save)
+
+	in options>settings>input 
+	you should set up ur controller or keybinds
+	SET DOCKED MODE TO ON (if you dont it will preform terribly)
+
+	in options>settings>system
+	in HACKS set ignore Missing Services to on if you dont want to look at errors
+
+	
+	in options>settings>Graphics
+	set graphics backend to either Vulkan if your computer uses an AMD graphics card or OpenGl for an nvidia card (Idk for intel or integrated graphics)(you can check graphics cards in system information by searching "system information" in the windows bar for windows
+	set "prefered GPU to whatever gpu you are useing
+	set resolution scale in accordance to your monitor
+	set post processing effect to none for better preformance
+	
+Settings i use on my (AMD gpu) computer:
+general:
+enable discord rich pressence: on
+check for updates on launch: off
+show "confirm exit" dialog: on
+hide cursor: never
+
+input:
+enable docked mode: on
+direct keyboard access: on
+direct mouse access: on
+player 1: configured to my controller (auto dected my controler and just moved some controls around for my personal preference)
+
+system: 
+system region: USA
+system language: AMerican English
+system TimeZone: UTC
+System Time: the actual time numnuts
+Enable Vsync: on (may be off if u want, just google what it does if you dont know)
+Enable PPTC(Profiled Persistent Translation Cache): on
+Enable Guest Internet Access: off
+Enable FS Integrety Checks: on
+audio Backend: SDL2  - Volume: 100%
+memory Manager mode: Host Unchecked(fastest, unsafe)
+Hacks:
+use alternative memory layout(developers): off
+Ignore Missing Services: on
+
+graphics:
+graphics backend multithreading: auto
+graphics backend: Vulkan
+preffered Gpu: Radeon RX 580 Series (dGpu)
+Enable Shader Cache: on
+Enable Texture Recompression: off
+Enable Macro HLE: on
+Resolution scale: Native(720/1080p)
+Post Processing Effects: none
+upscale: bilinear
+anisotropic filtering: 2x
+aspect Ratio: 16:9
+Graphics shaders Dump File: (empty)
+
+logging: (you can set all of these to off if u want (if on it uses more storage although slightly))
+enable logging to file: on
+enable stub logs: on
+enable info logs: on
+enable warning logs: on
+enable error logs: on
+enable guest logs: on
+enable Fs access logs: off
+Fs Global Access Log Mode: 0
+Grapics Backend log Level: none
+enable debug logs: off
+enable trace logs: off
+
+multiplayer:
+network interface: Default
+
+Thats all of the settings I use so yeah if you need smth else just google it on eggns.com (maybe .org i forgot) 
+
+enjoy the game its super fun it took my about 4 hours to explore the starting area so get ready for a wild ride
